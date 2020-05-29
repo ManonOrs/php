@@ -20,6 +20,7 @@ body {
     flex-direction: column; /* Les éléments sont empilés */
     align-items: center; /* Les éléments portés sont centrés à la verticale */
     width: 100%; /* La page occupe toute la largeur */
+    
 }
 
 header {
@@ -301,8 +302,4 @@ footer a{
     #thematique {
         flex-direction: row; /* Sur tablette, on met les casques de la page d'accueil côte à côte */
     }
-}
-
-#connexion{
-    position: absolute;
 }
