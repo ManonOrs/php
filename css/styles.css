@@ -302,3 +302,7 @@ footer a{
         flex-direction: row; /* Sur tablette, on met les casques de la page d'accueil côte à côte */
     }
 }
+
+#connexion{
+    position: absolute;
+}
