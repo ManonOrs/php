@@ -349,3 +349,8 @@ input[type=submit]:hover {
     color: #ff6811;
     border: 1px solid #ff6811;
 }
+
+#link_inscription{
+    color:#ff6811;
+    font-size: 12px;
+}
