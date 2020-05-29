@@ -13,9 +13,13 @@
         <link href="../css/style.css" rel="stylesheet" type="text/css">
         <link rel="icon" href="../favicon.ico">
     </head>
+    <?php
+            include('../includes/header.html.inc.php');
+        ?>
     <body>
         <?php
-            include('../includes/header.html.inc.php');
+            include('../includes/inscription.inc.php');
+            
             include('../includes/footer.inc.php');
         ?>
     </body>

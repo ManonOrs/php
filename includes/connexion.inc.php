@@ -13,11 +13,6 @@
 	if(isset($_POST['btn_connexion'])){
 	
 		$identifiant = $_POST['identifiant'];
-		$nom = $_POST['nom'];
-		
-
-		echo "voila".$daten."</br>";
-		echo "voila".$nom."</br>";
-		
+		$mdp = $_POST['mdp'];
 		
 	}
