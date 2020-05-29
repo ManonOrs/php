@@ -1,6 +1,6 @@
 <?php session_start(); 
 	
-	include('../includes/connexion.inc.php');
+
 ?>
 
 <html lang="fr-FR">
