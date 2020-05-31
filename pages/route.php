@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!-- 
-     Page web créé dans le cadre du cours de web Dev le 01/09/2018
-     Auteur : José GIL
-     Email : jgil83000@gmail.com
--->
+
 <?php session_start(); 
 	
 	include('../includes/connexion.inc.php');
