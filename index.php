@@ -8,9 +8,9 @@
 	
 	include('./includes/connexion.inc.php');
         
-        if ($etatco = "Connecter"){
-            
-        }
+//        if ($etatco = "Connecter"){
+//            include('./includes/connecter.php');
+//        }
 ?>
 
 <html lang="fr-FR">
