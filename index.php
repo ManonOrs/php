@@ -7,6 +7,10 @@
 <?php session_start(); 
 	
 	include('./includes/connexion.inc.php');
+        
+        if ($etatco = "Connecter"){
+            
+        }
 ?>
 
 <html lang="fr-FR">

@@ -9,10 +9,24 @@
 </div>
 
 <?php 
+
+        $etatco = "Déconecter";
+        global $etatco;
 	
 	if(isset($_POST['btn_connexion'])){
 	
 		$identifiantco = $_POST['identifiantco'];
 		$mdpco = $_POST['mdpco'];
+                
+                $cnx2 = new PDO('mysql:host=127.0.0.1;dbname=nolark', 'nolarkuser', 'nolarkpwd');
+                $req2 = 'SELECT mdp FROM utilisateur WHERE identifiant ="'.$identifiantco.'";';
+                $res2 = $cnx2->prepare($req1);
+                $res2->execute();
+                
+                $mdp = $res2;
+                
+                if($mdpco == $mdp){
+                    $etatco = "Connecter";
+                }
 		
 	}
